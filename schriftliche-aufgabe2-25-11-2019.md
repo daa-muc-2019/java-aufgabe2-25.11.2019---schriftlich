@@ -1,7 +1,8 @@
 
-*NAME:*_______________________________
 
-*Platznummer:*________________________
+**Name:**_______________________________
+
+**Platznummer:**________________________
 
 
 >Aufgabe verfügbar auf:
@@ -19,35 +20,38 @@
 	* Java Compiler
 
 Antwort:
->1. Quelltext
->
->2.
->
->
->3.
->
->
->4.
->
->
->5. realer Prozessor
+```
+1. Quelltext
+
+2.
+
+
+3.
+
+
+4.
+
+
+5. realer Prozessor
+```
 ## 2
 * Erläutern Sie die Begriffe `Syntax`, `Semantik`, `Pragmatik` anhand eines Beispiels. (java oder it oder natürliche Sprache)
 
 Antwort:
+```
+ - Semantik:
 
-> - Semantik:
->  .
->  .
->  .
->  - Syntax:
->    .
->    .
->    .
-> - Pragmatik:
-> .
-> .
-> .
+
+
+  - Syntax:
+
+
+
+ - Pragmatik:
+
+
+
+ ```
 
 # Klassen und Objekte / UML
 ## 1
@@ -67,30 +71,36 @@ Antwort:
 2. Überlegen Sie sich sinnvolle Attribut Namen (gerne auf Englisch) / achten Sie dabei besonders auf die Groß- und Kleinschreibung
 	
 
-> Antwort:
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
+Antwort:
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ```
 
 ### 1.1
 * Wie wird ein Konstruktor bezeichnet, der keinen Parameter übergeben bekommt?
 	* z.B.: `Soldat()`
-> Antwort:
->.
->.
->.
+Antwort:
+```
+
+
+```
 
 
 ## 2
@@ -101,31 +111,44 @@ Antwort:
 
 1) Modellieren Sie diese(s) Objekt(e) in UML (Objektdiagramm:)
 
-> Antwort:
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
->.
+Antwort:
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ```
 
 ## 3
 Erläutern Sie die Begriffe `Objekt` und `Klasse`. Verwenden Sie dabei bitte folgende Stichwörter: `Zur Laufzeit`; `Zur Zeit der Entwicklung`; `statisches Programmelement`; `dynamisches Programmelement`
 
-> Antwort:
->.
->.
->.
->.
->.
->.
->.
->.
+Antwort:
+```
+
+
+
+
+
+
+
+
+
+ ```
 
 ## 4
 Gegeben ist folgendes Codefragment:
@@ -144,22 +167,30 @@ Gegeben ist folgendes Codefragment:
 10 }
 ```
 #### 4.1
-* Wie wird der Inhalt von Zeile 1-7 genannt?
+* Wie wird der Inhalt in Zeile 1-7 genannt?
 
-> Antwort:
->.
->.
+Antwort:
+```
+
+
+```
 #### 4.2
 * Bilden Sie dieses Enumeration korrekt in UML ab
-> Antwort:
->.
->.
->.
->.
->.
->.
->.
->.
+Antwort:
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```
 
 # Klassen
 ## 1.1 (4 Punkte)
@@ -181,7 +212,7 @@ Gegeben ist folgendes Codefragment:
 ```
 ## 1.2 
 * Schreiben Sie für die Klasse `Soldat` 2 Konstruktoren
-	* default Kontruktor: 
+	* Standard Kontruktor (default constructor): 
 		* Initialisiert den Namen mit `"Erika Musterfrau"
 		* Das Attribut `meinePersonalakte` vom Datentyp `Personalakte` wird wie folgt initialisiert:
 		*  `this.meinePersonalakte = new Personalakte(123);`
@@ -189,6 +220,9 @@ Gegeben ist folgendes Codefragment:
 		* `Soldat(String initName, Personalakte initPersonalakte)`
 * Beide Konstruktoren sind öffentlich sichtbar (public)
 ```java
+
+
+
 
 
 
@@ -246,6 +280,8 @@ public class Main {
 
 	
 	public static void main(String[] args) {
+
+
 
 
 
