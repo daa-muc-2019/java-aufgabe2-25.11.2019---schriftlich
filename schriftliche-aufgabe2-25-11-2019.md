@@ -1,8 +1,8 @@
 
 
-**Name:**_______________________________
+**Name:**
 
-**Platznummer:**________________________
+**Platznummer:**
 
 
 >Aufgabe verfügbar auf:
@@ -23,13 +23,18 @@ Antwort:
 ```
 1. Quelltext
 
+
+
 2.
+
 
 
 3.
 
 
+
 4.
+
 
 
 5. realer Prozessor
@@ -43,7 +48,11 @@ Antwort:
 
 
 
+
+
   - Syntax:
+
+
 
 
 
@@ -51,7 +60,10 @@ Antwort:
 
 
 
+
+
  ```
+
 
 # Klassen und Objekte / UML
 ## 1
@@ -61,18 +73,23 @@ Antwort:
 * Eine Personalakte besteht aus einem `Inhalt` (String) und einer `Personal Nummer` (ganze Zahl)
 	* Eine Personalakte besitzt einen Konstruktor: `Personalakte(int initPersNu)`
 * Methoden (Verhalten) besitzen diese Klassen erstmal keine, allerdings vergessen Sie nicht die Konstruktoren abzubilden
-* Nur Ihre Soldaten Klasse soll später mit der Hauptklasse (`public class Main` und `public void main(String[] args)` kommunizieren können. 
+* Nur Ihre Soldaten Klasse soll später mit der Hauptklasse (`public class Main` und `public void main(String[] args)` kommunizieren können.
 	* Die Klasse Soldat und seine Konstruktoren besitzen die Sichtbarkeit: `public`
 	* Die Sichtbarkeit einer Personalakte ist: `package`
 	* Alle Attribute haben die Sichtbarkeit: `private`
 
 1. Modellieren Sie diese Klassen in UML, beachten Sie die Beziehung zwischen den 2 Klassen (Klassendiagramm:)
-	
+
 2. Überlegen Sie sich sinnvolle Attribut Namen (gerne auf Englisch) / achten Sie dabei besonders auf die Groß- und Kleinschreibung
-	
+
 
 Antwort:
+
 ```
+
+
+
+
 
 
 
@@ -96,12 +113,21 @@ Antwort:
 ### 1.1
 * Wie wird ein Konstruktor bezeichnet, der keinen Parameter übergeben bekommt?
 	* z.B.: `Soldat()`
+
 Antwort:
-```
 
-
-```
-
+>.  
+>
+>.   
+>
+>.   
+>
+>.   
+>
+>.   
+>
+>.   
+>
 
 ## 2
 * Gegeben sei ein Objekt: `Erika Musterfrau`.
@@ -111,44 +137,38 @@ Antwort:
 
 1) Modellieren Sie diese(s) Objekt(e) in UML (Objektdiagramm:)
 
-Antwort:
-```
+Antwort:  
 
+>.  
+>
+>.   
+>
+>.   
+>  
+>.   
+>  
+>.   
+>  
+>.   
+>  
+>.  
+>  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ```
 
 ## 3
 Erläutern Sie die Begriffe `Objekt` und `Klasse`. Verwenden Sie dabei bitte folgende Stichwörter: `Zur Laufzeit`; `Zur Zeit der Entwicklung`; `statisches Programmelement`; `dynamisches Programmelement`
 
 Antwort:
-```
 
+>.   
+>
+>.   
+>
+>.  
+>
+>.   
+>  
 
-
-
-
-
-
-
-
- ```
 
 ## 4
 Gegeben ist folgendes Codefragment:
@@ -156,10 +176,10 @@ Gegeben ist folgendes Codefragment:
 ```java
 
 1 /**
-2 * 
+2 *
 3 * Enumeration Dienstgrad.
 4 * Hier werden ein Teil der moeglichen Dienstgrade festgelegt.
-5 * 
+5 *
 6 * @author paul
 7 */
 8 public enum Dienstgrad {
@@ -170,13 +190,14 @@ Gegeben ist folgendes Codefragment:
 * Wie wird der Inhalt in Zeile 1-7 genannt?
 
 Antwort:
-```
+```java
 
 
 ```
 #### 4.2
 * Bilden Sie dieses Enumeration korrekt in UML ab
 Antwort:
+
 ```
 
 
@@ -193,11 +214,14 @@ Antwort:
 ```
 
 # Klassen
+
 ## 1.1 (4 Punkte)
+
 * Korrigieren Sie die Fehler des nachstehenden Quellcodes
 	* 4 Fehler haben sich eingeschlichen
+
 ```java
-1  public clas  Soldat 
+1  public clas  Soldat
 2  
 3  	private String name;
 4 	private _________________ meinePersonalakte
@@ -207,19 +231,21 @@ Antwort:
 8  //Hier ist der Platz für Konstruktoren
 9  
 10 // Hier werden Später Methoden geschrieben/implementiert
-11 
+11
 12 }
 ```
-## 1.2 
+
+## 1.2
 * Schreiben Sie für die Klasse `Soldat` 2 Konstruktoren
-	* Standard Kontruktor (default constructor): 
+	* Standard Kontruktor (default constructor):
 		* Initialisiert den Namen mit `"Erika Musterfrau"
 		* Das Attribut `meinePersonalakte` vom Datentyp `Personalakte` wird wie folgt initialisiert:
 		*  `this.meinePersonalakte = new Personalakte(123);`
 	* Ein Konstruktor mit 2 Parametern: Namen und Personalakte
 		* `Soldat(String initName, Personalakte initPersonalakte)`
 * Beide Konstruktoren sind öffentlich sichtbar (public)
-```java
+
+```
 
 
 
@@ -238,8 +264,11 @@ Antwort:
 
 
 ```
+
 # Methoden
+
 ## 1
+
 * Für Ihre Klasse Soldat schreiben Sie bitte eine Ausführende Methode (ohne Rückgabewert) mit folgenden Eigenschaften:
 	* Sie ist öffentlich zugänglich (public)
 	* Methoden Name: `halloAnAlle`
@@ -248,7 +277,8 @@ Antwort:
 	* `Hallo ich heiße (Name des Soldaten).`
 	* (Name des Soldaten) soll dabei das Attribut `name` der Klasse Soldat entsprechen
 		* z.B.: `Hallo ich heiße Erika Musterfrau`
-```java
+
+```
 
 
 
@@ -266,7 +296,7 @@ Antwort:
 ```
 
 # Hauptklasse/Main
-## 1 
+## 1
 * Erstellen Sie ein Objekt: `erika` mit Hilfe des Standard Konstruktor (default constructor)
 * Das Objekt `erika` soll die Methode `halloAnAlle()` aufrufen
 * Erstellen Sie ein Objekt: `testSoldat`
@@ -278,7 +308,7 @@ Antwort:
 ```java
 public class Main {
 
-	
+
 	public static void main(String[] args) {
 
 
@@ -295,7 +325,7 @@ public class Main {
 
 
 
-		
+
 	}
 
 }
