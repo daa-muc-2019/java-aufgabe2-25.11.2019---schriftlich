@@ -2,7 +2,7 @@
 
 **Name:**
 
-## 4
+## 5
 Gegeben ist folgendes Codefragment:
 
 ```java
@@ -18,7 +18,7 @@ Gegeben ist folgendes Codefragment:
 9 UNTEROFFIZIER, OBERGEFREITER, OBERSTABSGEFREITER, GEFREITER;
 10 }
 ```
-#### 4.1 (1 Punkt)
+#### 5.1 (1 Punkt)
 * Wie wird der Inhalt in Zeile 1-7 genannt?
 
 Antwort:
@@ -27,7 +27,7 @@ Antwort:
 
 ```
 
-#### 4.2 (6 Punkte)
+#### 5.2 (6 Punkte)
 * Bilden Sie dieses Enumeration korrekt in UML ab
 Antwort:
 

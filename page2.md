@@ -45,7 +45,7 @@ Antwort:
 
  ```
 
-### 1.1 (1 Punkt)
+### 2 (1 Punkt)
 * Wie wird ein Konstruktor bezeichnet, der keinen Parameter übergeben bekommt?
 	* z.B.: `Soldat()`
 

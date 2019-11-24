@@ -8,7 +8,7 @@
 
 * Für Ihre Klasse Soldat schreiben Sie bitte eine Ausführende Methode (ohne Rückgabewert) mit folgenden Eigenschaften:
 	* Sie ist öffentlich zugänglich (public)
-	* Methoden Name: `halloAnAlle`
+	* Methoden Name: `halloAnAlle()`
 	* Es werden keine Parameter übergeben
 * Die Methode soll auf der Konsole folgendes ausgeben:
 	* `Hallo ich heiße (Name des Soldaten).`

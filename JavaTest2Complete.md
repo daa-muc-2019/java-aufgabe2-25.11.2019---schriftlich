@@ -105,7 +105,7 @@ Antwort:
 
  ```
 
-### 1.1 (1 Punkt)
+### 2 (1 Punkt)
 * Wie wird ein Konstruktor bezeichnet, der keinen Parameter übergeben bekommt?
 	* z.B.: `Soldat()`
 
@@ -124,7 +124,7 @@ Antwort:
 >.   
 >
 
-## 2 (10 Punkte)
+## 3 (10 Punkte)
 * Gegeben sei ein Objekt: `Erika Musterfrau`.
 * Das Objekt entsteht aus der Klasse `Soldat`
 * In ihrer Personalakte steht `tadellos`
@@ -150,7 +150,7 @@ Antwort:
 >  
 
 
-## 3 (4 Punkte)
+## 4 (4 Punkte)
 Erläutern Sie die Begriffe `Objekt` und `Klasse`. Verwenden Sie dabei bitte folgende Stichwörter: `Zur Laufzeit`; `Zur Zeit der Entwicklung`; `statisches Programmelement`; `dynamisches Programmelement`
 
 Antwort:
@@ -165,7 +165,7 @@ Antwort:
 >  
 
 
-## 4
+## 5
 Gegeben ist folgendes Codefragment:
 
 ```java
@@ -181,7 +181,7 @@ Gegeben ist folgendes Codefragment:
 9 UNTEROFFIZIER, OBERGEFREITER, OBERSTABSGEFREITER, GEFREITER;
 10 }
 ```
-#### 4.1 (1 Punkt)
+#### 5.1 (1 Punkt)
 * Wie wird der Inhalt in Zeile 1-7 genannt?
 
 Antwort:
@@ -189,7 +189,7 @@ Antwort:
 
 
 ```
-#### 4.2 (6 Punkte)
+#### 5.2 (6 Punkte)
 * Bilden Sie dieses Enumeration korrekt in UML ab
 Antwort:
 

@@ -26,7 +26,7 @@
 
 ## 1.2 (10 Punkte)
 * Schreiben Sie für die Klasse `Soldat` 2 Konstruktoren
-	* Standard Kontruktor (default constructor):
+	* Standard Konstruktor (default constructor):
 		* Initialisiert den Namen mit `"Erika Musterfrau"
 		* Das Attribut `meinePersonalakte` vom Datentyp `Personalakte` wird wie folgt initialisiert:
 		*  `this.meinePersonalakte = new Personalakte(123);`
