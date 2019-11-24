@@ -1,16 +1,11 @@
 
+-Seite 1
 
 **Name:**
 
-**Platznummer:**
-
-
->Aufgabe verfügbar auf:
-
-
 ## Java
 
-### 1
+### 1 (3 Punkte)
 * Bringen Sie die folgenden Begriffe in eine sinnvolle Reihenfolge (Entstehung bis Ausführung eines Java Programms)
 
 	* Quelltext
@@ -39,18 +34,18 @@ Antwort:
 
 5. realer Prozessor
 ```
-## 2
+## 2 (6 Punkte)
 * Erläutern Sie die Begriffe `Syntax`, `Semantik`, `Pragmatik` anhand eines Beispiels. (java oder it oder natürliche Sprache)
 
 Antwort:
 ```
- - Semantik:
+ - Syntax:
 
 
 
 
 
-  - Syntax:
+  - Semantik:
 
 
 
@@ -66,7 +61,7 @@ Antwort:
 
 
 # Klassen und Objekte / UML
-## 1
+## 1 (12 Punkte)
 * Gegeben seien zwei Klassen: `Soldat` und `Personalakte`
 * Soldaten haben einen `Namen` (String) und eine `Personalakte`
 	*  Ein Soldat besitzt 2 Konstruktoren: `Soldat()`, `Soldat(String initName, Personalakte initPersonalakte)`
@@ -110,7 +105,7 @@ Antwort:
 
  ```
 
-### 1.1
+### 1.1 (1 Punkt)
 * Wie wird ein Konstruktor bezeichnet, der keinen Parameter übergeben bekommt?
 	* z.B.: `Soldat()`
 
@@ -129,7 +124,7 @@ Antwort:
 >.   
 >
 
-## 2
+## 2 (10 Punkte)
 * Gegeben sei ein Objekt: `Erika Musterfrau`.
 * Das Objekt entsteht aus der Klasse `Soldat`
 * In ihrer Personalakte steht `tadellos`
@@ -155,7 +150,7 @@ Antwort:
 >  
 
 
-## 3
+## 3 (4 Punkte)
 Erläutern Sie die Begriffe `Objekt` und `Klasse`. Verwenden Sie dabei bitte folgende Stichwörter: `Zur Laufzeit`; `Zur Zeit der Entwicklung`; `statisches Programmelement`; `dynamisches Programmelement`
 
 Antwort:
@@ -186,7 +181,7 @@ Gegeben ist folgendes Codefragment:
 9 UNTEROFFIZIER, OBERGEFREITER, OBERSTABSGEFREITER, GEFREITER;
 10 }
 ```
-#### 4.1
+#### 4.1 (1 Punkt)
 * Wie wird der Inhalt in Zeile 1-7 genannt?
 
 Antwort:
@@ -194,7 +189,7 @@ Antwort:
 
 
 ```
-#### 4.2
+#### 4.2 (6 Punkte)
 * Bilden Sie dieses Enumeration korrekt in UML ab
 Antwort:
 
@@ -235,7 +230,7 @@ Antwort:
 12 }
 ```
 
-## 1.2
+## 1.2 (10 Punkte)
 * Schreiben Sie für die Klasse `Soldat` 2 Konstruktoren
 	* Standard Kontruktor (default constructor):
 		* Initialisiert den Namen mit `"Erika Musterfrau"
@@ -267,7 +262,7 @@ Antwort:
 
 # Methoden
 
-## 1
+## 1 (10 Punkte)
 
 * Für Ihre Klasse Soldat schreiben Sie bitte eine Ausführende Methode (ohne Rückgabewert) mit folgenden Eigenschaften:
 	* Sie ist öffentlich zugänglich (public)
@@ -296,7 +291,7 @@ Antwort:
 ```
 
 # Hauptklasse/Main
-## 1
+## 1 (10 Punkte)
 * Erstellen Sie ein Objekt: `erika` mit Hilfe des Standard Konstruktor (default constructor)
 * Das Objekt `erika` soll die Methode `halloAnAlle()` aufrufen
 * Erstellen Sie ein Objekt: `testSoldat`
@@ -330,3 +325,80 @@ public class Main {
 
 }
 ```
+
+# Arrays
+
+Gegeben ist folgende Klasse:
+
+```java
+public class MyNumbers {
+
+	int[] myNumbers = { 1, 1, 2, 3, 5, 8, 13 };
+
+	public MyNumbers() {
+
+	}
+
+		public MyNumbers(int[] initNumbers) {
+
+			this.myNumbers = initNumbers;
+
+		}
+
+		public int consoleOutput() {
+			for (int i = 0; i < this.myNumbers.length; i++) {
+				System.out.println(this.myNumbers[i]);
+				}
+		}
+}
+```
+## 1 (13 Punkte)
+Schreiben Sie eine Methode, die als Rückgabewert eine ganze Zahl zurückgibt. Die Methode ist öffentlich sichtbar (public).
+Die Methode Addiert alle Zahlen von `myNumbers` und gibt das Ergebnis zurück. (D.h. 1+1+2+3+5+8+13)
+
+```Java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+## 2 (20 Punkte)
+* Schreiben Sie eine Methode, die nach einer bestimmten Zahl innerhalb ihres Arrays `myNumbers` sucht.
+* Dabei soll die Methode zählen, wie oft die Zahl in dem Array vorkommt. Der Methoden Kopf soll folgend aussehen:
+
+```Java
+public int searchNumber(int numberToSearch){
+
+}
+```
+
+* Als Rückgabewert wird die Häufigkeit der gesuchten Zahl zurück gegeben.
+* Bevor die Methode Den Wert zurückgibt soll sie auf der Konsole folgendes schreiben:
+
+> Die gesuchte Zahl `gesuchte Zahl` wurde `Anzahl der gefundenen Elemente` -Mal gefunden.
+
+```java
+public class main {
+	public static void main(String[] args) {
+		MyNumbers mn = new MyNumbers();
+		System.out.println("Rückgabewert der Methode: " + mn.searchNumber(1));
+	}
+}
+```
+Ergebnis:
+>Die gesuchte Zahl: 1 wurde 2-Mal gefunden.
+
+>Rückgabewert der Methode: 2
